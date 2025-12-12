@@ -1,0 +1,12 @@
+steps:
+  - name : hashicorp cloudbuild terraform
+    id : terraform apply
+    entrypoint :  sh
+    args:
+      - -c
+      - |
+        terraform init
+        terraform apply -auto-approve
+
+options:
+  logging: CLOUD_LOGGING_ONLY
