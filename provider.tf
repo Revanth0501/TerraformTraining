@@ -5,7 +5,7 @@ provider "google"{
 
 terraform{
     backend "gcs"{
-        bucket=" remote_terraform_state"
+        bucket="remote_terraform_state"
     }
 }
 
