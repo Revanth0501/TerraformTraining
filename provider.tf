@@ -10,7 +10,7 @@ terraform{
 }
 
 resource "google_storage_bucket" "gitops-test-bucket" {
-  name = "gitops-test-bucket"
+  name = "gitops-test-bucket-2"
   location = "us-central1"
 
 }
